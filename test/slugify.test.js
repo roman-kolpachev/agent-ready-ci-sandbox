@@ -28,3 +28,7 @@ test('returns an empty string when there are no letters or digits', () => {
   assert.equal(slugify('   '), '');
   assert.equal(slugify('!@#$%^&*() -- ...'), '');
 });
+
+test('KAN-11: a title of spaces only gives an empty string', () => {
+  assert.equal(slugify('   '), '');
+});
