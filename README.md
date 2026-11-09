@@ -1,5 +1,5 @@
-# ar-j5-sandbox
+# agent-ready-ci-sandbox
 
-A scratch repository for trying Agent Ready's MCP tools with Claude Code
-(J5: does the agent call start_issue / finish_issue unasked?). Nothing here
-ships.
+A public scratch repository for checking Agent Ready's verified receipts
+against real builds: GitHub Actions runs `node --test`, GitHub for
+Atlassian reports the builds to a Jira test site. Nothing here ships.
